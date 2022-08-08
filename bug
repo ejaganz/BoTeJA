@@ -5,7 +5,7 @@ case 'hentai': {
                 Plerrgun.sendMessage(m.chat, { video: { url: result.video_1 }, caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.category}\n⭔ Mimetype : ${result.type}\n⭔ Views : ${result.views_count}\n⭔ Shares : ${result.share_count}\n⭔ Source : ${result.link}\n⭔ Media Url : ${result.video_1}` }, { quoted: m })
 
 
-case 'bugpc2':
+case 'spammer':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
 if (args.length < 1) return reply('Jumlahnya?')
 for (let i = 0; i < args[0]; i++) {
