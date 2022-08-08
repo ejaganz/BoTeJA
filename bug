@@ -2,14 +2,14 @@ case 'hentai': {
                 reply(mess.wait)
                 anu = await hentai()
                 result = anu[Math.floor(Math.random(), anu.length)]
-                alpha.sendMessage(m.chat, { video: { url: result.video_1 }, caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.category}\n⭔ Mimetype : ${result.type}\n⭔ Views : ${result.views_count}\n⭔ Shares : ${result.share_count}\n⭔ Source : ${result.link}\n⭔ Media Url : ${result.video_1}` }, { quoted: m })
+                Plerrgun.sendMessage(m.chat, { video: { url: result.video_1 }, caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.category}\n⭔ Mimetype : ${result.type}\n⭔ Views : ${result.views_count}\n⭔ Shares : ${result.share_count}\n⭔ Source : ${result.link}\n⭔ Media Url : ${result.video_1}` }, { quoted: m })
 
 
 case 'bugpc2':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
 if (args.length < 1) return reply('Jumlahnya?')
 for (let i = 0; i < args[0]; i++) {
-pemuda.sendMessage(from, `${NamaBot}`, MessageType.extendedText,{
+plerrgun.sendMessage(from, `${NamaBot}`, MessageType.extendedText,{
  quoted: {
 key: {
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
